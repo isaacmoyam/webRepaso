@@ -1,0 +1,115 @@
+<!--ISAAC MOYA-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Consejos</title>
+		<link rel="stylesheet" href="estilo2.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<header><!--NAVEGADOR DONDE IREMOS ALTERNANDO ENTRE PAGINAS, LLEVA UN ID PORQUE SOLO APARECE UNA VEZ-->
+			<a href="https://fundacionloyola.com/vguadalupe/" target="_blank"><img src="imagenes/fundacion.png"></a> <!--IMAGEN QUE LLEVA A LA WEB DEL COLEGIO-->
+			<nav>
+				<ul> <!--LISTA CON ENLACES QUE SIRVE DE MENÚ-->
+					<li><a href="index.html">INICIO</a></li> 
+					<li><a href="consejos.html">CONSEJOS</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<section id="titulo">
+				<h1>Consejos para reducir este impacto medioambiental</h1>
+			</section>
+			<section>
+				<p>
+					Como hemos visto, en la búsqueda por minimizar nuestro impacto ambiental,
+					nuestras elecciones de compra desempeñan un papel crucial.
+					Las compras en línea, aunque convenientes, 
+					también pueden tener consecuencias ecológicas.
+					Afortunadamente, existen medidas que podemos tomar para mitigar este impacto.<br><br>
+					A continuación, presentamos acciones prácticas para hacer nuestras
+					compras en línea más eco-friendly, y qué pueden hacer las empresas:
+				</p>
+			</section>
+			<section>
+				<h2>Acciones para los Consumidores:</h2>
+				<ol>
+					<li><span class="sub">Compra Consciente:</span><br> Reflexionar sobre la necesidad real del producto antes de comprarlo.</li>
+					<li><span class="sub">Agrupación de Compras:</span><br> Realizar compras en línea agrupadas para reducir la frecuencia de envíos.</li>
+					<li><span class="sub">Productos Duraderos y de Calidad:</span><br> Optar por productos de alta calidad y durabilidad para reducir la necesidad de reemplazos frecuentes.</li>
+					<li><span class="sub">Minimización de Devoluciones:</span><br> Leer detenidamente las descripciones y reseñas de productos para evitar devoluciones innecesarias.</li>
+					<li><span class="sub">Reciclaje y Reutilización:</span><br> Reciclar y reutilizar los materiales de embalaje siempre que sea posible.</li>
+					<li><span class="sub">Fomento de la Economía Circular:</span><br> Comprar productos de empresas que promuevan la economía circular y prácticas sostenibles.</li>
+					<li><span class="sub">Concientización y Activismo:</span><br> Participar en campañas y actividades que promuevan un consumo responsable y la sensibilización ambiental.</li>
+				</ol>
+				<h2>Acciones para los Empresarios:</h2>
+				<ol>
+					<li><span class="sub">Optimización de Embalajes:</span><br> Reducir el tamaño y el material del embalaje para minimizar residuos.</li>
+					<li><span class="sub">Embalajes Sostenibles:</span><br> Utilizar materiales de embalaje biodegradables, reciclables o reutilizables.</li>
+					<li><span class="sub">Logística Eficiente:</span><br> Optimizar rutas de entrega para reducir emisiones de carbono y tiempo de tránsito.</li>
+					<li><span class="sub">Energía Renovable:</span><br> Emplear fuentes de energía renovable en almacenes y centros de distribución.</li>
+					<li><span class="sub">Promoción de Productos Eco-amigables:</span><br> Destacar y fomentar la venta de productos ecológicos y sostenibles.</li>
+					<li><span class="sub">Programas de Reciclaje y Reutilización:</span><br> Establecer sistemas de reciclaje de embalajes y facilitar la reutilización de productos.</li>
+					<li><span class="sub">Transparencia y Educación:</span><br> Educar a los consumidores sobre el impacto ambiental de sus compras y las medidas sostenibles que implementa la empresa.</li>
+				</ol>
+				<img src="imagenes/banner.jpg">
+			</section>
+			<section>
+				<h1 class="h1apartado">En resumen...</h1>
+				<p>
+					Pequeños cambios pueden tener un gran impacto.
+					Al adoptar estas prácticas en nuestras compras en línea,
+					no solo aligeramos la carga sobre nuestro planeta, 
+					sino que también promovemos un futuro más sostenible.<br><br>
+					Cada elección cuenta en nuestro camino hacia un consumo
+					consciente y responsable. Juntos, podemos marcar la diferencia
+					y preservar nuestro preciado entorno para las generaciones venideras.
+				</p>
+			</section>
+		</article>
+		<footer>
+			<a href="https://fundacionloyola.com/vguadalupe/" target="_blank"><img src="imagenes/formlogo.jpg"></a>
+			<h3>Comparte con nosotros tu visión del tema:</h3>
+			<form action="formulario.php" method="GET"><!--FORMULARIO-->
+				<label for="name">Nombre:</label><!--LABEL SIRVE PARA DAR TITULO VISUAL A LOS INPUTS-->
+				<input type="text" name="nombre"><!--INPUT SIRVE PARA INTRODUCIR INFORMACION-->
+				<br><br>
+				<label for="edad">Edad:</label>
+				<input type="number" min="1" max="120" name="edad"><!--EL INPUT TIPO NUMBER PERMITE INTRODUCIR SOLO NÚMEROS Y ADEMÁS PODEMOS LIMITARLOS CON MAX Y MIN-->
+				<br><br>
+				<label for="comentario">Tu comentario:</label>
+				<br>
+				<textarea name="comentario" rows="5" cols="33"></textarea><!--TEXTAREA SIRVE PARA CREAR UNA CAJA DE TEXTO MAS GRUESA-->
+				<br>
+				<label for="radio">Género:</label><!--LABEL SIRVE PARA DAR TITULO VISUAL A LOS INPUTS-->
+				<label for="m">Masculino</label>
+				<input type="radio" id="m" name="radio" value="masculino"><!--INPUT SIRVE PARA INTRODUCIR INFORMACION-->
+				<label for="f">Femenino</label>
+				<input type="radio" id="f" name="radio" value="femenino"><!--INPUT SIRVE PARA INTRODUCIR INFORMACION-->
+				<br><br>
+				<label for="pais">País:</label>
+				<select name="pais">
+					<option value="">- Selecciona opción -</option>
+					<option value="España">España</option>
+					<option value="Portugal">Portugal</option>
+					<option value="Francia">Francia</option>
+			    </select>
+				<br>
+				<p>¿Qué sueles comprar por internet?</p>
+				<input type="checkbox" name="cb[]" value="ropa"/> <!--SE LE PONE DE NOMBRE LOS CORCHETES AL FINAL PARA INDICAR AL PHP QUE ES UN ARRAY-->
+				<label for="cb[]">Ropa</label>
+				<input type="checkbox" name="cb[]" value="productos"/>
+				<label for="cb[]">Productos Tecnológicos</label>
+				<input type="checkbox" name="cb[]" value="comida"/>
+				<label for="cb[]">Comida rápida</label>
+				<input type="checkbox" name="cb[]" value="otro"/>
+				<label for="cb[]">Otro</label>
+				<br><br>
+				<input type="checkbox" name="terminos" value="aceptados"/>
+				<label for="terminos">¿Aceptas los terminos?</label>
+				<br><br>
+				<input type="submit"><!--LOS INPUTS DE TIPOS SUBMIT SON PARA ENVIAR LOS DATOS DEL FORMULARIO A DONDE LE HAYAMOS PUESTO EN EL ACTION AL FORMULARIO-->
+			</form>
+		</footer>
+	</body>
+</html>

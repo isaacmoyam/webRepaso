@@ -1,0 +1,131 @@
+/*ISAAC MOYA*/
+
+body{
+	width:1280px;
+	background-image:url("imagenes/fondo.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin:0;
+}
+
+/*NAVEGADOR Y SUS COMPONENTES*/
+
+header{
+	background-color:white;
+	width:1280px;
+	height:80px;
+	margin:0 auto;
+	padding:10px;
+	font-family:arial;
+	font-weight:bold;
+}
+
+header img{
+	width:150px;
+	float:left;
+}
+
+header nav ul li{
+	float:left;
+	margin:15px;
+	list-style-type:none;
+}
+
+header nav ul li:first-child{
+	margin:15px 60px 0 320px;
+}
+
+header nav ul li a{
+	text-decoration:none;
+	color:white;
+	background-color:#2255a8;
+	padding:15px 30px;
+	border-radius:9px;
+}
+
+header nav ul li a:hover{
+	background-color:#1d4a91;
+}
+
+/*CONTENEDOR PRINCIPAL Y SUBCONTENEDORES*/
+
+article{
+	background-color:rgba(255,255,255,0.29);
+	width:1150px;
+	padding:20px;
+	margin:30px auto;
+	border-radius:10px;
+	font-family:tahoma;
+}
+
+article section{
+	width:1100px;
+	margin:0 auto 30px;
+	padding:15px;
+	border-radius:10px;
+	background-color:white;
+}
+
+/*TITULO*/
+
+#titulo h1{
+	font-size:50px;
+	margin: 10px 30px 0 0 ;
+	color:#3216B0;
+	text-align:center;
+}
+
+/*TITULOS DE APARTADOS*/
+
+.h1apartado{ /*SELECTOR DE CLASE*/
+	font-size:20px;
+	color:orange;
+}
+
+/*FUENTE Y TAMAÑO DE LOS PARRAFOS*/
+
+p{
+	font-family:georgia;
+	font-size:13px;
+	text-align:justify;
+	padding:8px;
+}
+
+/*ESTILO EN NEGRITA DE LAS LISTAS*/
+
+.sub{
+	font-weight:bold;
+	color:#3216B0;
+}
+
+article section img{
+	width:900px;
+	text-align:center;
+}
+
+/*FORMULARIO*/
+
+footer{
+	background-color:#134ea8;
+	width:1280px;
+	margin:0 auto;
+	padding:10px;
+	color:white;
+	font-family:arial;
+}
+
+footer img{
+	width:150px;
+	float:left;
+	margin:0 140px 0 0;
+}
+
+form{
+	background-color:#2ba6ed;
+	margin:0 auto;
+	width:700px;
+	text-align:center;
+	border-radius:10px;
+	padding:10px;
+	font-family:monospace;
+}
